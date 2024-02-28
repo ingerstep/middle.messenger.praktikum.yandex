@@ -1,0 +1,61 @@
+.sidebar__item {
+    padding: 12px 0;
+    margin-top: -1px;
+    border-top: 1px solid $button-border;
+    border-bottom: 1px solid $button-border;
+}
+
+.sidebare__button {
+    width: 100%;
+    text-align: left;
+}
+
+.sidebar__icon {
+    margin-right: 10px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: $button-hover;
+}
+
+.sidebar__sender-info {
+    flex-direction: column;
+    max-width: 190px;
+    margin-right: auto;
+}
+
+.sidebar__sender-name {
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.sidebar__sender-message {
+    color: $secondary-text;
+    height: 30px;
+    width: 190px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar__info {
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__date {
+    margin-bottom: 14px;
+    font-size: 9px;
+    color: $secondary-text;
+}
+
+.sidebar__counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $primary-accent;
+    color: $primary-background;
+}

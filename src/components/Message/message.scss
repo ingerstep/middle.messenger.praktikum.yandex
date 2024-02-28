@@ -1,0 +1,52 @@
+.chat__sender-wrapper {
+    position: relative;
+    padding: 15px;
+    max-width: 402px;
+    text-align: left;
+    background-color: $button-background;
+    margin-bottom: 10px;
+}
+
+.chat__sender-text {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.chat__time {
+    position: absolute;
+    right: 11px;
+    bottom: 11px;
+    font-size: 9px;
+    line-height: 9px;
+    color: $secondary-text;
+}
+
+.chat__img-wrapper {
+    width: 320px;
+    height: 211px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid $button-border;
+    background-color: transparent;
+}
+
+.chat__time_rounded {
+    padding: 2px 7px;
+    border-radius: 30px;
+    background-color: rgba(82, 82, 82, .5);
+    color: $primary-background;
+}
+
+.chat__own-wrapper {
+    position: relative;
+    margin-left: auto;
+    max-width: 120px;
+    margin-bottom: 10px;
+    padding: 11px;
+    padding-right: 63px;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 12px;
+    background-color: $link-hover;
+}

@@ -1,0 +1,12 @@
+.form__input {
+    min-width: 280px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $primary-accent;
+}
+  
+.form__label {
+    font-size: 9px;
+    line-height: 9px;
+    margin-bottom: 8px;
+    color: $secondary-text;
+}

@@ -57,54 +57,16 @@ $error-red: #FF0000;
   display: flex;
 }
 
-.error {
-  margin: 0 auto;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.error__title {
-  font-size: 40px;
-  line-height: 40px;
-  margin-bottom: 20px;
-}
-
-.error__descr {
-  font-size: 20px;
-  line-height: 20px;
-  margin-bottom: 70px;
-}
-
-.header {
-  justify-content: center;
-  position: absolute;
-  z-index: 10;
-  right: 50%;
-  transform: translateX(50%);
-}
-
-.nav__list {
-  font-size: 15px;
-  line-height: 15px;
-  color: $primary-accent;
-}
-
-.nav__item:not(:last-child) {
-  margin-right: 20px;
-}
-
 .back-link {
   font-size: 11px;
   line-height: 11px;
   color: $primary-accent;
 }
 
-.main {
+.container {
   margin: 0 auto;
   position: relative;
-  height: 100%;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -117,37 +79,13 @@ $error-red: #FF0000;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, .14);
 }
 
-.form__title {
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.form__list {
-  flex-direction: column;
-  margin-bottom: 40px;
-}
-
 .form__item {
   flex-direction: column;
+  position: relative;
 
   &:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
-}
-
-.form__input {
-  min-width: 280px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid $primary-accent;
-}
-
-.form__label {
-  font-size: 9px;
-  line-height: 9px;
-  margin-bottom: 8px;
-  color: $secondary-text;
 }
 
 .action-button {
@@ -165,12 +103,13 @@ $error-red: #FF0000;
   color: $primary-accent;
 }
 
-.back__wrapper {
-  position: absolute;
-  align-items: center;
-  left: 0;
-  height: 100%;
-  padding: 0 18px;
-  background-color: $button-background;
-  border-right: 1px solid $button-border;
-}
+@import '../../src/components/Nav/nav.scss';
+@import '../../src/components/Auth/auth.scss';
+@import '../../src/components/AuthField/authField.scss';
+@import '../../src/components/Chat/chat.scss';
+@import '../../src/components/Dialog/dialog.scss';
+@import '../../src/components/Error/error.scss';
+@import '../../src/components/Message/message.scss';
+@import '../../src/components/Profile/profile.scss';
+@import '../../src/components/ProfileField/profileField.scss';
+@import '../../src/components/Sender/sender.scss';

@@ -1,0 +1,21 @@
+.profile__item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid $button-border;
+    }
+}
+
+.profile__input {
+    color: $secondary-text;
+    text-align: end;
+}
+
+.error__right {
+    left: auto;
+    right: 0;
+}
