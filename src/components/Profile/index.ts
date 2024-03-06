@@ -1,4 +1,3 @@
-import nav from '../../index.ts';
 import Component from '../../services/Component.ts';
 import ProfileField from '../ProfileField/index.ts';
 import Button from '../ui/Button/index.ts';
@@ -14,7 +13,6 @@ interface IProfile {
   exitBtn: Button[];
   avatarBtn: Button[];
   backBtn: Button[];
-  nav: typeof nav;
   attr: object;
 }
 

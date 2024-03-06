@@ -1,6 +1,4 @@
 const tpl = `
-    {{{nav}}}
-
     <div class="flex back__wrapper">
          {{{backBtn}}}
     </div>

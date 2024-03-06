@@ -10,5 +10,7 @@ module.exports = {
     'max-params': [2, 3],
     'no-console': 'off',
     'eol-last': 0,
+    'linebreak-style': 0,
+    'no-underscore-dangle': 'off',
   },
 };
